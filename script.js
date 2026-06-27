@@ -1,6 +1,7 @@
 let cp = document.querySelectorAll(".cell-a");
 let currentplayer = "X";
 let turn = document.querySelector(".turn");
+let restart = document.querySelector("#restart")
 let gameover = false;
 cp.forEach((cell) => {
     cell.addEventListener("click", () => {
@@ -39,4 +40,15 @@ cp.forEach((cell) => {
             });
         };
     });
+});
+
+restart.addEventListener("click" , () => {
+        currentplayer = "X";
+        turn.innerHTML = "Current Player : X";
+        cp.forEach((cell) => {
+            cell.innerText = "";
+            cell.classList.remove("winner");
+        });
+        gameover = false;
+    
 });
