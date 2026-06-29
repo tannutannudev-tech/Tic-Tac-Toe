@@ -1,58 +1,62 @@
-
-.container{
-    display : flex;
+.container {
+    display: flex;
     flex-direction: column;
     text-align: center;
-   
-}
-.cell{
-    display :flex;
-   
+
 }
 
-.cell-a{
-    width:100px;
-    height:100px;
-
-    border:1px solid black;
-    margin:5px;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    font-size:40px;
-    font-weight:bold;
-
-    cursor:pointer;
-
-    box-sizing:border-box;
-    
+.cell {
+    display: flex;
 }
-body{
-    display : flex;
+
+.cell-a {
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+    margin: 5px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin : 80px;
-    height: 100vh;
-    
-    
+    margin: 80px;
+    height: auto;
+
+
 }
-.winner{
+
+.winner {
     background-color: lightgreen;
+    border: 2px solid #22c55e;
+    transform: scale(1.05);
+    transition: all 0.1s ease;
 }
 
-#restart{
- padding : 10px;
- margin : 10px;
- color : black;
- background-color: white;
- border: 1px solid #ccc;
- border-radius: 5px;
- cursor: pointer;
+#restart {
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-#restart:hover{
-  transform: scale(1.05);
+#restart:hover {
+    transform: scale(1.05);
 }
