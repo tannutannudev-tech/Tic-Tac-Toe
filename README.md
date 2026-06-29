@@ -9,6 +9,9 @@ A simple Tic Tac Toe game built using **HTML, CSS, and JavaScript**.
 - ✅ Alternate player turns
 - ✅ Current player indicator
 - ✅ Winner detection
+- ✅ Draw detection
+- ✅ Restart game
+- ✅ Winner highlighting
 - ✅ Prevents overwriting an occupied cell
 
 ## 🛠️ Technologies Used
